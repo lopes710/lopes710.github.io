@@ -1,0 +1,57 @@
+---
+import "../../styles/global.css";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="AI-assisted Flutter app using MediaPipe Face Mesh to help doctors visually analyze and select facial areas for aesthetic treatment planning."
+    />
+    <title>Medical Face AI Analyzer</title>
+  </head>
+
+  <body class="bg-white text-gray-900 font-sans">
+    <main class="max-w-4xl mx-auto p-8">
+      <h1 class="text-3xl font-bold mb-4">Medical Face AI Analyzer</h1>
+
+      <p class="mb-4 text-gray-700">
+        A Flutter-based tool built for aesthetic clinics to assist doctors in analyzing facial areas and planning cosmetic procedures.
+      </p>
+
+      <ul class="list-disc pl-6 text-gray-700 space-y-2 mb-6">
+        <li>Patients upload a face image for analysis.</li>
+        <li>
+          <strong>MediaPipe Face Mesh</strong> detects 468 facial landmarks in real-time, enabling accurate region mapping.
+        </li>
+        <li>
+          Doctors can select default facial areas (e.g., lips, jaw, cheeks) or freely drag to define custom zones.
+        </li>
+        <li>
+          Each selected region is outlined using triangle meshes from the landmark data.
+        </li>
+        <li>
+          The app supports interactive highlights and tap gestures for zone-based annotations.
+        </li>
+        <li>
+          Built using <strong>Flutter</strong> with custom drawing logic and gesture handling.
+        </li>
+      </ul>
+
+      <div class="mb-6">
+        <p class="text-sm text-gray-600 italic">What is MediaPipe Face Mesh?</p>
+        <p class="text-sm text-gray-700">
+          It’s a Google AI solution that maps 468 3D facial landmarks from a single camera input. Ideal for real-time face detection and augmented reality use cases.
+        </p>
+      </div>
+
+      <video class="w-full rounded-lg border border-gray-300" controls>
+        <source src="/assets/facial_analysis.mov" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </main>
+  </body>
+</html>
