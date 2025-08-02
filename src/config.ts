@@ -2,17 +2,17 @@ export const siteConfig = {
   name: "Duarte Lopes",
   title: "Senior iOS Developer (Swift, Objective-C) · Android (Kotlin) · Flutter (Dart) · Flask (Python)",
   description: "Portfolio website of Duarte Lopes — iOS, Flutter & Python Developer with 10+ years of mobile experience.",
-  accentColor: "#00bcd4", // you can change this to match your style
+  accentColor: "#00bcd4",
 
   social: {
     email: "duarte.lopes85@gmail.com",
     linkedin: "https://linkedin.com/in/DuarteSantosLopes",
-    twitter: "", // leave empty if unused
+    twitter: "",
     github: "https://github.com/lopes710",
   },
 
   aboutMe:
-    "I'm a mobile developer with 10+ years of iOS experience and 2+ years working with Flutter and Python. I've worked on high-impact apps at Farfetch, Fuse Energy, and Betfair. My recent work involves AI-driven features, Stripe payments, and full-stack development with Flask.",
+    "I'm a mobile developer with 10+ years of iOS experience and 2 years working with Flutter and Python. I've worked on high-impact apps at Farfetch, Fuse Energy, and Betfair. My recent work involves AI-driven features, Stripe payments, and full-stack development with Flask.",
 
   skills: [
     "iOS", "Swift", "Objective-C", "SwiftUI", "UIKit",
