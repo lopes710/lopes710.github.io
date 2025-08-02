@@ -1,0 +1,43 @@
+---
+import { siteConfig } from "../../config";
+import "../../styles/global.css";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="Animated Flutter UI for medical aesthetic clinic tracking user inputs like sleep, water intake, and activity."
+    />
+    <title>Medical Aesthetic Clinic UI · {siteConfig.name}</title>
+  </head>
+
+  <body>
+    <main class="max-w-4xl mx-auto p-8">
+      <h1 class="text-3xl font-bold mb-4">Medical Aesthetic Clinic UI</h1>
+
+      <p class="mb-6 text-gray-700">
+        This Flutter UI was designed for a medical aesthetic clinic, allowing users to track key lifestyle inputs like sleep, hydration, and activity. All graphs, animations, and calendar components were custom built programmatically.
+      </p>
+
+      <ul class="list-disc list-inside mb-6 text-gray-700 space-y-2">
+        <li>Custom animated graphs for 7-day progress tracking</li>
+        <li>Fully interactive calendar UI, built from scratch</li>
+        <li>Modular and visually appealing layout for mobile</li>
+        <li>Programmatic animation of transitions and charts</li>
+        <li>Designed to collect data for aesthetic treatment planning</li>
+      </ul>
+
+      <div>
+        <p class="text-sm text-gray-600 mb-2">UI Demo</p>
+        <video class="w-full rounded-lg border border-gray-300" controls>
+          <source src="/assets/clinic_ui_showcase.mov" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+---
+import { siteConfig } from "../../config";
+import "../../styles/global.css";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="Flutter-based admin UI for editing structured JSON content and syncing updates with a backend database."
+    />
+    <title>JSON Import/Export Editor · {siteConfig.name}</title>
+  </head>
+
+  <body>
+    <main class="max-w-4xl mx-auto p-8">
+      <h1 class="text-3xl font-bold mb-4">JSON Import/Export Editor</h1>
+
+      <p class="mb-6 text-gray-700">
+        This Flutter-based admin tool allows seamless syncing of structured JSON content with a backend database. The interface supports editing treatment data, sending updates to a Flask backend, and validating changes via JSON export.
+      </p>
+
+      <ul class="list-disc list-inside mb-6 text-gray-700 space-y-2">
+        <li>Connected to a Flask API with backend validation</li>
+        <li>Supports live editing of treatment data</li>
+        <li>Exports updated content as downloadable JSON</li>
+        <li>Useful for internal tooling and content migration</li>
+        <li>Built entirely in Flutter with fullstack integration</li>
+      </ul>
+
+      <div>
+        <p class="text-sm text-gray-600 mb-2">UI Demo</p>
+        <video class="w-full rounded-lg border border-gray-300" controls>
+          <source src="/assets/jsonImportExportDB.mov" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </main>
+  </body>
+</html>
