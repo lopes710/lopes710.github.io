@@ -1,11 +1,14 @@
 import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 
-const base = "/lopes710.github.io/"
-// const base = "/"
+const isProd = process.env.NODE_ENV === "production";
+
+const baseProd = "https://lopes710.github.io/"
+const baseDev = "/"
 
 export default defineConfig({
   output: "static",
-  base: "/lopes710.github.io/",
+  //base: base,
+  base: isProd ? baseProd : baseDev,
   integrations: [tailwind()],
 });
