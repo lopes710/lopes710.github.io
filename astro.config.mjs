@@ -3,7 +3,7 @@ import tailwind from "@astrojs/tailwind";
 
 const isProd = process.env.NODE_ENV === "production";
 
-const baseProd = ""//"https://lopes710.github.io/"
+const baseProd = ""
 const baseDev = "/"
 
 export default defineConfig({

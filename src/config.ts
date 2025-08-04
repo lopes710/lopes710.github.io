@@ -12,7 +12,7 @@ export const siteConfig = {
   },
 
   aboutMe:
-    "I'm a mobile developer with 10+ years of iOS experience and 2 years working with Flutter and Python. I've worked on high-impact apps at Farfetch, Fuse Energy, and Betfair. My recent work involves AI-driven features, Stripe payments, and full-stack development with Flask.",
+    "I'm a mobile developer with 10+ years of iOS experience and around 1.5 years working with Flutter and Python. I've worked on high-impact apps at Farfetch, Fuse Energy, and Betfair. My recent work involves AI-driven features, Stripe payments, and full-stack development with Flask.",
 
   skills: [
     "iOS", "Swift", "Objective-C", "SwiftUI", "UIKit",
